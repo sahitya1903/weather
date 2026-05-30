@@ -2,13 +2,14 @@ import TextField from '@mui/material/TextField';
 import Button from "@mui/material/Button"
 import './SearchBox.css'
 import { useState } from 'react';
+// import DeleteIcon from '@mui/icons-material/Delete';
+// import { Alert } from '@mui/material';
 
 export default function SearchBox(){
     let[city,setCity]=useState("");
     // console.log(import.meta.env);
     const url="https://api.openweathermap.org/data/2.5/weather";
     const key=import.meta.env.VITE_API_KEY;
-    // console.log(key);
 
     let getWeatherInfo=async(city)=>{
         let response=await fetch(`${url}?q=${city}&appid=${key}&units=metric`);
@@ -47,3 +48,11 @@ export default function SearchBox(){
         </div>
     );
 }
+
+{/*
+<Button>Click Me!</Button>
+<Button variant='contained' onClick={handleClick} color='success'>Click Me 2!</Button>
+<Button variant='contained' onClick={handleClick} disabled>Click Me 3!</Button>
+<Button variant="outlined" startIcon={<DeleteIcon />}>Delete</Button>
+<Alert severity='error'>Alert Button given</Alert> 
+*/}

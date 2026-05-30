@@ -1,7 +1,3 @@
-import './App.css'
-// import DeleteIcon from '@mui/icons-material/Delete';
-// import { Alert } from '@mui/material';
-// import Button from "@mui/material/Button"
 import SearchBox from './SearchBox';
 
 function App() {
@@ -10,12 +6,6 @@ function App() {
   }
   return (
     <>
-      {/* <h1>Material UI Demo</h1>
-      <Button>Click Me!</Button>
-      <Button variant='contained' onClick={handleClick} color='success'>Click Me 2!</Button>
-      <Button variant='contained' onClick={handleClick} disabled>Click Me 3!</Button>
-      <Button variant="outlined" startIcon={<DeleteIcon />}>Delete</Button>
-      <Alert severity='error'>Alert Button given</Alert> */}
       <SearchBox/>
     </>
   )
