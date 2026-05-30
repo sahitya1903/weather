@@ -1,0 +1,7 @@
+.SearchBox{
+    border: 1px solid palevioletred;
+    border-radius: 14px;
+    text-align: center;
+    margin: auto;
+    width: 300px;
+}
