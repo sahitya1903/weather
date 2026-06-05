@@ -1,3 +1,4 @@
+import InfoBox from './InfoBox';
 import SearchBox from './SearchBox';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <SearchBox/>
+      <InfoBox/>
     </>
   )
 }
