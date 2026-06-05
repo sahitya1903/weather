@@ -1,14 +1,9 @@
-import InfoBox from './InfoBox';
-import SearchBox from './SearchBox';
+import WeatherApp from './WeatherApp';
 
 function App() {
-  let handleClick=()=>{
-    console.log('Button was clicked');
-  }
   return (
     <>
-      <SearchBox/>
-      <InfoBox/>
+      <WeatherApp/>
     </>
   )
 }

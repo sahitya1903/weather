@@ -1,8 +1,5 @@
 .info{
-    text-align: center;
-}
-
-.card{
+    margin-top: 1 rem;
     display: flex;
     justify-content: center;
 }
